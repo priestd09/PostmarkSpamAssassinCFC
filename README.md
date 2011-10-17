@@ -6,7 +6,7 @@ ColdFusion 8 or above (i.e. JSON functions are supported).
 
 Create an instance of the CFC. You might like to cache this in a persistent scope, e.g. the application scope.
 
-`<cfset spamchecker = createObject("component", "SpamCheck")>`
+`spamchecker = createObject("component", "SpamCheck");`
 
 Then pass the email to be checked to the CFC methods:
 
